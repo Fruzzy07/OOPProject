@@ -67,7 +67,7 @@ public class GraduateStudent implements StudentMove {
         } else {
             System.out.println("Teachers:");
             for (Teacher teacher : teachers) {
-                System.out.println("Name: " + teacher.fullName + ", Subject: " + teacher.subject);
+                System.out.println("Name: " + teacher.fullName + ", Course: " + teacher.course);
             }
         }
     }
