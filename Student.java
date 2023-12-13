@@ -89,7 +89,7 @@ public class Student extends StudentOrganization implements StudentMove  {
         } else {
             System.out.println("Teachers:");
             for (Teacher teacher : teachers) {
-                System.out.println("Name: " + teacher.fullName + ", Subject: " + teacher.subject);
+                System.out.println("Name: " + teacher.fullName + ", Course: " + teacher.course);
             }
         }
     }
@@ -133,7 +133,7 @@ public class Student extends StudentOrganization implements StudentMove  {
 
     @Override
     public Transcript getTranscript() {
-        // Simulate generating the transcript for the student
+        // getTranscriptka birdene zhazu kerek
         Transcript transcript = new Transcript();
         // Populate the transcript with relevant information
         return transcript;
