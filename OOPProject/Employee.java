@@ -13,7 +13,7 @@ public abstract class Employee extends User{
 		this.fullName = fullName;
 		this.salary = salary;
 	}
-	public abstract String report();
+	public abstract String report(String s);
 	public boolean dismissal() {
 		return User.users.remove(this);
 	}
