@@ -41,7 +41,7 @@ public class Student extends StudentOrganization implements StudentMove  {
     }
     
     public boolean dropCourse(Course course) {
-        if (Course.coursesForStudent.containsValue(course)) {
+        if (Course.coursesForStudent.contains(course)) {
             Course.coursesForStudent.remove(course);
             totalCredits -= course.credit;
             return true;
@@ -131,10 +131,9 @@ public class Student extends StudentOrganization implements StudentMove  {
     }
 
     @Override
-    public Transcript getTranscript() {
+    //public Transcript getTranscript() {
         // getTranscriptka birdene zhazu kerek
-        // Populate the transcript with relevant information
         return transcript;
-    }
+    }//
 	
 }
