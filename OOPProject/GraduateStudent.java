@@ -110,10 +110,8 @@ public class GraduateStudent implements StudentMove {
     }
 
     @Override
-    public Transcript getTranscript() {
-        // Simulate generating the transcript for the student
+   // public Transcript getTranscript() {
         Transcript transcript = new Transcript();
-        // Populate the transcript with relevant information
         return transcript;
-    }
+    }//
 }
