@@ -20,7 +20,7 @@ public class Student extends StudentOrganization implements StudentMove  {
         this.yearOfStudy = yearOfStudy;
         this.transcript = transcript;
         this.period = period;
-        students.add(this);s
+        students.add(this);
     }
 	
 	public boolean joinToOrganization(Student s) {
